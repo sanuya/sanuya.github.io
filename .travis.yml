@@ -2,10 +2,10 @@ sudo: false
 language: node_js
 node_js:
   - 10 # use nodejs v10 LTS
-cache: npm
+cache: yarn
 branches:
   only:
-    - master # build master branch only
+    - gh-pages # build master branch only
 script:
   - yarn install
   - yarn build
