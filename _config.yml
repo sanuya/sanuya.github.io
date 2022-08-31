@@ -97,9 +97,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: land-scape
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
+## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 
+  type: git
+  repo: git@github.com:sanuya/sanuya.github.io.git
+  branch: gh-pages

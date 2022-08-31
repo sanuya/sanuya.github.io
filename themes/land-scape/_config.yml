@@ -1,6 +1,6 @@
 # Header
 menu:
-  Home: /
+  Home: /index/
   Archives: /archives
 rss: /atom.xml
 banner: "images/banner.jpg"
